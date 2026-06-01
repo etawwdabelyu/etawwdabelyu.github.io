@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Asril Ahmad Solehudin</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Asril_as.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="landingPage.html">Portfolio</a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="landingPage.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Desain</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Asril Ahmad Solehudin</span>
+          </h1>
+          <p class="hero-subtitle">
+            Saya adalah Swiper Yang Bertanggung Jawab Untuk Memastikan Pendaki Tidak Ada Yang Tertinggal  
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Lihat Pengalaman</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-image">
+            <img
+              src="foto.jpeg"
+              alt="Profile"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Saya adalah Swiper dan Porter</p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>12</h3>
+                <p>Gunung</p>
+              </div>
+              <div class="stat">
+                <h3>OTW 3</h3>
+                <p>Tahun Pengalaman</p>
+              </div>
+              <div class="stat">
+                <h3>100%</h3>
+                <p>Keamanan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-paint-brush"></i> Gunung </h3>
+            <div class="skill-items">
+              <span>swiper</span>
+              <span>porter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Pengalaman</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="swiper.jpeg" alt="Desain" />
+            </div>
+            <div class="project-content">
+              <h3>swiper</h3>
+              <p>Ketika Saya Menjadi Swiper</p>
+
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="porter.jpeg"
+                alt="Desain"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Porter</h3>
+              <p>Ketika Saya Menjadi Porter</p>
+              <div class="project-tech"></div>
+              <div class="project-links">
+                <a href="#" class="btn-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="btn-link"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>asrilahmad198@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>0859-3325-0820</div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <div>
+                <h3>GitHub</h3>
+                <p>github.com/asrilahmad</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Nama Anda" required />
+            <input type="email" placeholder="Email Anda" required />
+            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Asril Ahmad Solehudin</p>
+      </div>
+    </footer>
+
+    <script src="Asril_As.js"></script>
+  </body>
+</html>
